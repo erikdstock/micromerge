@@ -19,18 +19,22 @@ module.exports = {
         "enabled" : true,
         "path" : "./screenshots"
       },
-
       "desiredCapabilities": {
         "browserName": "chrome",
         "chromeOptions" : {
-          "args" : ["--no-sandbox"]
+          "args" : ["--no-sandbox"],
         },
         "acceptSslCerts": true
       }
     },
-    "chromeMobile" : { // FIXME: make actually mobile
+
+    "chromeMobile" : { 
       "desiredCapabilities": {
-        "browserName": "chrome"
+        'chromeOptions': {
+          "mobileEmulation" : {
+              'deviceName': 'Apple iPhone 6'
+          }
+        }
       }
     }
   },

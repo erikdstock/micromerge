@@ -7,7 +7,7 @@
   "author": "Erik Stockmeier <erik@artsymail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "nightwatch tests"
+    "test": "nightwatch --env tests"
   },
   "dependencies": {
     "chromedriver": "^2.27.2",
