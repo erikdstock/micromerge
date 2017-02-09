@@ -28,7 +28,7 @@ module.exports = {
       }
     },
 
-    "chromeMobile" : { 
+    "mobile" : { 
       "desiredCapabilities": {
         'chromeOptions': {
           "mobileEmulation" : {
