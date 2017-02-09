@@ -1,5 +1,6 @@
 module.exports = {
-  'Demo test Google' : function (browser) {
+  'Demo test Google': function (browser) {
+    this.skip()
     browser
       .url('http://www.google.com')
       .waitForElementVisible('input[type=text]', 2000)
@@ -8,6 +9,6 @@ module.exports = {
       .click('button[name=btnG]')
       .pause(1000)
       .assert.containsText('#main', 'Night Watch')
-      .end();
+      .end()
   }
-};
+}
