@@ -1,0 +1,16 @@
+{
+  "name": "micromerge",
+  "version": "1.0.0",
+  "description": "exercise artsy.net responsive views",
+  "main": "index.js",
+  "repository": {},
+  "author": "Erik Stockmeier <erik@artsymail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "nightwatch tests"
+  },
+  "dependencies": {
+    "chromedriver": "^2.27.2",
+    "nightwatch": "^0.9.12"
+  }
+}
